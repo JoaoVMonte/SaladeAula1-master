@@ -14,7 +14,7 @@ export default function StackPessoas() {
 
             <Stack.Screen name='ListaPessoas' component={ListaPessoas} />
 
-            <Stack.Screen name='FormPessoa' component={FormPessoas} />
+            <Stack.Screen name='FormPessoas' component={FormPessoas} />
 
         </Stack.Navigator>
 

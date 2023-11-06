@@ -8,13 +8,13 @@ export default function ListaPessoas({ navigation, route }) {
 
   const [pessoas, setPessoas] = useState([
     {
-      nome: 'João Paulo',
+      nome: 'Emiliano',
       idade: '25',
       altura: '189',
-      peso: '80,5'
+      peso: '80,3'
     },
     {
-      nome: 'Jorge Luiz',
+      nome: 'Mario',
       idade: '20',
       altura: '180',
       peso: '70'

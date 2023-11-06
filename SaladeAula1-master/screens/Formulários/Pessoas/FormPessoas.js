@@ -173,7 +173,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         width: '90%',
         gap: 10,
-        marginBottom: 10
+        marginBottom: 11
     },
     button: {
         flex: 1

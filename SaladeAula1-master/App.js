@@ -12,7 +12,9 @@ export default function App () {
       <NavigationContainer>
         <StackPessoas />
       </NavigationContainer>
+      
       <Toast/>
+
     </PaperProvider>
   );
 }
