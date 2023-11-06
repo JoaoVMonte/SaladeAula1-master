@@ -76,7 +76,7 @@ export default function ListaPessoas({ navigation, route }) {
   return (
     <View style={styles.container}>
 
-      <Text variant='titleLarge' style={styles.title} >Lista de Pessoas</Text>
+      <Text variant='titleLarge' style={styles.title} >Lista de Alunos</Text>
 
       <FlatList
         style={styles.list}
@@ -103,7 +103,7 @@ export default function ListaPessoas({ navigation, route }) {
 
             </Card.Content>
             <Card.Actions>
-              <Button onPress={() => navigation.push('FormPessoa', { acao: editarPessoa, pessoa: item })}>
+              <Button onPress={() => navigation.push('FormPessoas', { acao: editarPessoa, pessoa: item })}>
                 Editar
               </Button>
               <Button onPress={() => {
@@ -121,7 +121,7 @@ export default function ListaPessoas({ navigation, route }) {
       <FAB
         icon="plus"
         style={styles.fab}
-        onPress={() => navigation.push('FormPessoa', { acao: adicionarPessoa })}
+        onPress={() => navigation.push('FormPessoas', { acao: adicionarPessoa })}
       />
 
 

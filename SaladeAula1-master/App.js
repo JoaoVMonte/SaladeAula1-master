@@ -1,8 +1,8 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { PaperProvider } from 'react-native-paper';
-import DrawerRoutes from './routes/DrawerRoutes';
 import React from 'react';
 import Toast from 'react-native-toast-message';
+import StackAlunos from './screens/Formulários/Alunos/StackAlunos';
 import StackPessoas from './screens/Formulários/Pessoas/StackPessoas';
 
 export default function App () {
@@ -12,7 +12,7 @@ export default function App () {
       <NavigationContainer>
         <StackPessoas />
       </NavigationContainer>
-      
+
       <Toast/>
 
     </PaperProvider>

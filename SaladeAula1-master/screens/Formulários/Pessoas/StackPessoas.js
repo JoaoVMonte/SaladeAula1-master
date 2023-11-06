@@ -16,6 +16,7 @@ export default function StackPessoas() {
 
             <Stack.Screen name='FormPessoas' component={FormPessoas} />
 
+
         </Stack.Navigator>
 
     )

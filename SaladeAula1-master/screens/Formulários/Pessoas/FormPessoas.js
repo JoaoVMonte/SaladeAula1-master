@@ -3,7 +3,7 @@ import { StyleSheet, View } from 'react-native'
 import { Button, Text, TextInput } from 'react-native-paper'
 import Toast from 'react-native-toast-message'
 
-export default function FormPessoa({ navigation, route }) {
+export default function FormPessoas({ navigation, route }) {
 
     const { acao, pessoa: pessoaAntiga } = route.params
 
@@ -44,12 +44,12 @@ export default function FormPessoa({ navigation, route }) {
             }
 
             const objetoEmString = JSON.stringify(novaPessoa)
-            console.log("🚀 ~ file: FormPessoa.js:47 ~ salvar ~ objetoEmString:", objetoEmString)
+            console.log("🚀 ~ file: FormPessoas.js:47 ~ salvar ~ objetoEmString:", objetoEmString)
 
             console.log(typeof (objetoEmString))
 
             const objeto = JSON.parse(objetoEmString)
-            console.log("🚀 ~ file: FormPessoa.js:52 ~ salvar ~ objeto:", objeto)
+            console.log("🚀 ~ file: FormPessoas.js:52 ~ salvar ~ objeto:", objeto)
 
             console.log(typeof (objeto))
 
@@ -76,7 +76,7 @@ export default function FormPessoa({ navigation, route }) {
     return (
         <View style={styles.container}>
 
-            <Text variant='titleLarge' style={styles.title} >{pessoaAntiga ? 'Editar Pessoa' : 'Adicionar Pessoa'}</Text>
+            <Text variant='titleLarge' style={styles.title} >{pessoaAntiga ? 'Editar Aluno' : 'Adicionar Aluno'}</Text>
 
             <View style={styles.inputContainer}>
                 <TextInput
