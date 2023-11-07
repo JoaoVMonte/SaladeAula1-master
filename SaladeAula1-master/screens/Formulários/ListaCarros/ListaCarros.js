@@ -122,7 +122,7 @@ const styles = StyleSheet.create({
     },
     list: {
         width: '95%',
-        marginTop: 10
+        marginTop: 11
     },
     card: {
         margin: 5

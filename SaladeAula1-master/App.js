@@ -11,7 +11,6 @@ export default function App () {
       <NavigationContainer>
         <ListaAsyncStorage />
       </NavigationContainer>
-
       <Toast/>
 
     </PaperProvider>
